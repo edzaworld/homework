@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+}
+/* all body */
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    font-family: "Roboto";
+}
+
+/* Menu */
+.header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    padding: 0 15px;
+    margin: 0 auto;
+
+    max-width: 1300px;
+    width: 100%;
+    min-height: 80px;
+
+    background-color: #213B7E;
+}
+
+/* Menu icon */
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    color: #EA5D21;
+    font-family: 'Changa';
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 10px;
+    line-height: 20px;
+}
+.university {
+    margin-left: 10px;
+}
+
+/* Menu navigation */
+.nav {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list > li {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.nav-link:hover {
+    background-color: #FFFFFF;
+    color: #213B7E;
+}
+
+.active-page {
+    background-color: #FFFFFF;
+    color: #213B7E;
+}
+/* Login-button */
+.login {
+    align-self: center;
+    
+    width: 150px;
+    height: 50px;
+
+    background-color: #EA5D21;
+}
+
+.login-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* PopUp */
+.popup-box {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    box-sizing: border-box;
+
+    background-color: #FFFFFF;
+    border: 1px solid #213B7E;
+    box-shadow: 1px 1px 1px;
+}
+
+.popup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 500px;
+    width: 100%;
+    min-height: 400px;
+
+    padding: 28px 28px 56px 14px;
+}
+
+.title-popup {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.popup-input {
+    width: 440px;
+    height: 55px;
+
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.popup-login {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #EA5D21;
+    color: #FFFFFF;
+    padding: 16px 52px;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.show-popup {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+/* Content box */
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    max-width: 920px;
+    width: 100%;
+    min-height: 720px;
+
+    margin: 30px auto;
+}
+
+.title-welcome {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.classroom {
+    width: 100%;
+    max-width: 525px;
+
+    margin-top: 25px;
+}
+
+.title-for {
+    font-size: 25px;
+    font-weight: 400;
+
+    margin-top: 25px;
+}
+
+.content-for {
+    max-width: 630px;
+
+    margin-top: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title-what {
+    font-size: 25px;
+    font-weight: 400;
+
+    margin-top: 15px;
+}
+
+.content-what {
+    max-width: 630px;
+
+    margin-top: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+.myself {
+    font-style: italic;
+    color: #EA5D21;
+}
+
+.learn-together {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 560px;
+    right: 350px;
+
+    font-size: 36px;
+    font-family: 'Lobster';
+    color: #646464;   
+}
+
+.together {
+    margin-left: 10px;
+}
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1300px;
+    width: 100%;
+    height: 60px;
+
+    margin: 0 auto;
+    background-color: #213B7E;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+
+    opacity: 0.5;
+}
+
+.footer-link {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+/* About Page */
+.about {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 820px;
+    width: 100%;
+    margin: 30px auto 100px;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-text {
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+.video {
+    max-width: 820px;
+    min-height: 550px;
+    box-sizing: border-box;
+}
+/* Contact page */
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 100px;
+
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 220px 25px;
+}
+
+.map {
+    width: 100%;
+    min-height: 370px;
+}
+.contact-text {
+    font-size: 25px;
+    margin: 15px 220px 10px;
+}
+
+.contact-address {
+    font-size: 18px;
+    margin: 10px 220px 10px;
+}
+/* Students */
+.students {
+    display: flex;
+    flex-direction: column;
+
+
+    box-sizing: border-box;
+    margin:0 auto 200px;
+}
+
+.students-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 30px;
+}
+
+.students-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 200px;
+    padding: 0 30px;
+}
+
+
+.student-image {
+    width: 200px;
+    height: 270px;
+    transition: all 0.5s ease-in-out;
+}
+.student-image:hover {
+    transform: scaleX(-1);
+}
+
+.student-name {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.new {
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -134px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #3AA828;
+    padding: 2px 5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.eduard-link {
+    text-decoration: none;
+    color: #000000;
+}
+.eduard-link:hover {
+    color: #EA5D21;
+}
+/* MEDIA */
+@media (max-width: 1320px) {
+    .learn-together {
+        display: none;
+    }
+}
+
+@media (max-width: 858px) {
+    .icon {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .header {
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .nav-link {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+    .contact-title {
+        margin: 25px 0;
+    }
+    
+    .contact-text {
+        margin: 25px 0;
+    }
+    
+    .contact-address {
+        margin: 10px 0;
+    }
+}

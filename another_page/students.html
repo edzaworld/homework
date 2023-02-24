@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/layout_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Layout</title>
+</head>
+
+<body>
+
+    <!-- all body -->
+    <div class="main-box">
+
+        <!-- Menu -->
+        <div class="header">
+
+            <!-- Menu icon -->
+            <div class="icon">
+                <span class="innopolis">innopolis</span>
+                <span class="university">university</span>
+            </div>
+
+            <!-- Menu navigation -->
+            <div class="nav">
+                <ul class="nav-list">
+                    <li><a href="../index.html" class="nav-link">Главная</a></li>
+                    <li><a href="#" class="nav-link active-page">Студенты</a></li>
+                    <li><a href="./about.html" class="nav-link">О курсе</a></li>
+                    <li><a href="./contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu login-button -->
+            <div class="login">
+                <a href="#" class="login-link">Войти</a>
+            </div>
+
+            <!-- PopUp -->
+            <div class="popup-box">
+                <form class="popup-form">
+                    <span class="title-popup">Войти на сайт</span>
+                    <input type="text" placeholder="Логин" required class="popup-input">
+                    <input type="password" placeholder="Пароль" required class="popup-input">
+                    <button class="popup-login">Войти</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- Students -->
+        <div class="students">
+            <span class="students-title">Студенты потока 14.11.2022 👧👦</span>
+            <div class="students-card">
+                <a href="../About_me_2/index.html" class="eduard-link">
+                    <div class="student">
+                        <img src="../image/student0.jpg" alt="Фото студента" class="student-image">
+                        <span class="student-name">Эдуард Загидуллин</span>
+                    </div>
+                </a>
+                <div class="student">
+                    <img src="../image/student1.jpg" alt="Фото студента" class="student-image">
+                    <span class="student-name">Александр Демьяненко</span>
+                    <span class="new">новичок</span>
+                </div>
+                <div class="student">
+                    <img src="../image/student2.jpg" alt="Фото студента" class="student-image">
+                    <span class="student-name">Наталья Селезнёва</span>
+                </div>
+                <div class="student">
+                    <img src="../image/student3.jpg" alt="Фото студента" class="student-image">
+                    <span class="student-name">Виктор Павлов</span>
+                </div>
+                <div class="student">
+                    <img src="../image/student4.png" alt="Фото студента" class="student-image">
+                    <span class="student-name">Валерий Носик</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span class="footer-text">2022 © <a href="./contacts.html" class="footer-link">учебный центр</a></span>
+        </div>
+
+    </div>
+
+    <script src="../scriptJS/script_popup.js"></script>
+
+</body>
+
+</html>

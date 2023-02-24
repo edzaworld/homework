@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/layout_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Layout</title>
+</head>
+
+<body>
+
+    <!-- all body -->
+    <div class="main-box">
+
+        <!-- Menu -->
+        <div class="header">
+
+            <!-- Menu icon -->
+            <div class="icon">
+                <span class="innopolis">innopolis</span>
+                <span class="university">university</span>
+            </div>
+
+            <!-- Menu navigation -->
+            <div class="nav">
+                <ul class="nav-list">
+                    <li><a href="../index.html" class="nav-link">Главная</a></li>
+                    <li><a href="./students.html" class="nav-link">Студенты</a></li>
+                    <li><a href="#" class="nav-link active-page">О курсе</a></li>
+                    <li><a href="./contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu login-button -->
+            <div class="login">
+                <a href="#" class="login-link">Войти</a>
+            </div>
+        </div>
+
+        <!-- PopUp -->
+        <div class="popup-box">
+            <form class="popup-form">
+                <span class="title-popup">Войти на сайт</span>
+                <input type="text" placeholder="Логин" required class="popup-input">
+                <input type="password" placeholder="Пароль" required class="popup-input">
+                <button class="popup-login">Войти</button>
+            </form>
+        </div>
+        <!-- About -->
+        <div class="about">
+            <span class="about-title">О курсе 📱</span>
+            <span class="about-text">Посмотрите видео о нас</span>
+            <iframe src="https://www.youtube.com/embed/0v7pdd4za6s" frameborder="0" class="video"></iframe>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span class="footer-text">2022 © <a href="./contacts.html" class="footer-link">учебный центр</a></span>
+        </div>
+
+    </div>
+
+    <script src="../scriptJS/script_popup.js"></script>
+
+</body>
+
+</html>

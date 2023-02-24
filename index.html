@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/layout_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Layout</title>
+</head>
+
+<body>
+
+    <!-- all body -->
+    <div class="main-box">
+
+        <!-- Menu -->
+        <div class="header">
+
+            <!-- Menu icon -->
+            <div class="icon">
+                <span class="innopolis">innopolis</span>
+                <span class="university">university</span>
+            </div>
+
+            <!-- Menu navigation -->
+            <div class="nav">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active-page">Главная</a></li>
+                    <li><a href="./another_page/students.html" class="nav-link">Студенты</a></li>
+                    <li><a href="./another_page/about.html" class="nav-link">О курсе</a></li>
+                    <li><a href="./another_page/contacts.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu login-button -->
+            <div class="login">
+                <a href="#" class="login-link">Войти</a>
+            </div>
+        </div>
+
+        <!-- PopUp -->
+        <div class="popup-box">
+            <form class="popup-form">
+                <span class="title-popup">Войти на сайт</span>
+                <input type="text" placeholder="Логин" required class="popup-input">
+                <input type="password" placeholder="Пароль" required class="popup-input">
+                <button class="popup-login">Войти</button>
+            </form>
+        </div>
+
+        <!-- Content box -->
+        <div class="content">
+            <p class="title-welcome">Добро пожаловать на курс
+                “Создание веб-сайтов (HTML, CSS)”!</p>
+            <img src="./image/classroom.png" alt="classroom" class="classroom">
+            <p class="title-for">Для кого этот курс</p>
+            <span class="content-for">Этот курс рассчитан на новичков, которые
+                только начинают знакомство с веб-разработкой. В начале курса вы
+                узнаете о том, как устроен Интернет и веб-сайты.
+                <br>Для обучения необходимо только владеть компьютерной грамотностью
+                (пользоваться браузером, создавать папки и файлы, устанавливать
+                программы).</span>
+            <div class="learn-together">
+                <span class="learn">”Учимся</span>
+                <span class="together">вместе!”</span>
+            </div>
+            <p class="title-what">Чему вы научитесь</p>
+            <span class="content-what">На этом курсе вы узнаете, как устроены
+                веб-сайты и как создавать их с нуля. Изучите основы языков
+                <span class="bolder">HTML, CSS</span> и немного <span class="bolder">JavaScript</span>. Мы вместе
+                сверстаем сайт нашей
+                группы по этому макету. А затем вы <span class="myself">сами</span> сверстаете свои личные
+                странички в качестве домашнего задания и мы выложим все это на
+                сервер.</span>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span class="footer-text">2022 © <a href="./another_page/contacts.html" class="footer-link">учебный
+                    центр</a></span>
+        </div>
+
+    </div>
+
+    <script src="./scriptJS/script_popup.js"></script>
+
+</body>
+
+</html>
